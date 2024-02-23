@@ -1,9 +1,19 @@
 import './App.css';
 import MyLinkedin from './components/li_button';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import About from './pages/About';
+import Projects from './pages/Projects';
 
 function App() {
   return (
     <>
+        {/* <BrowserRouter> */}
+            {/* <Routes>
+                <Route index element = {<App/>} />
+                <Route path="/about" element= {<About/>}/> 
+                <Route path="/projects" element= {<Projects/>}/>
+            </Routes> */}
+        {/* </BrowserRouter> */}
         <div style={{ color: 'white', textAlign: 'right', fontSize: '22px'}}>
             Walter Miller Van Hanken
             <br></br>
@@ -27,7 +37,7 @@ function App() {
                 </div>
                 <br />
                 <div className="center">
-                    <a href="https://directory-social.vercel.app/" style={{ fontSize: '25px' }}>Directory-Social</a>
+                    <a href="https://directory-social-git-main-mvanhans-projects.vercel.app/" style={{ fontSize: '25px' }}>Directory-Social</a>
                 </div>
                 <br />
                 <div className="center">
