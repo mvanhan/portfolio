@@ -1,0 +1,16 @@
+.pdf-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    padding: 0 10%;
+  }
+  
+  .pdf-text-box {
+    width: 50%;
+    text-align: left;
+  }
+  
+  .pdf-viewer {
+    width: 35%;
+  }
