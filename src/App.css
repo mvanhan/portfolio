@@ -1,5 +1,5 @@
 body {
-  background-color: black;
+  background-color: rgb(167, 166, 166);
 }
   
   
@@ -20,11 +20,11 @@ body {
   text-align: center;
 }
   
-  
+
 .pad {
   padding: 50px;
 }
-  
+
   
 .text-box {
   border: 5px solid rgb(27, 39, 255);
@@ -35,4 +35,45 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
+}
+
+
+.navBar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: rgb(167, 166, 166);
+  z-index: 1000;
+  box-sizing: border-box; 
+}
+
+.navBar .name {
+  color: white;
+  font-size: 22px;
+  text-align: left;
+  font-family: "Courier New", Courier, "Lucida Console", Monaco, monospace;
+  font-weight: bold;
+}
+
+.navLinks {
+  display: flex;
+  align-items: center;
+  font-family: "Courier New", Courier, "Lucida Console", Monaco, monospace;
+  font-size: 20px;
+}
+
+.navLinks a {
+  text-decoration: none;
+  padding: 10px;
+  margin: 0 5px;
+  color: white;
+}
+
+.navLinks a.active {
+  font-weight: bold;
 }
