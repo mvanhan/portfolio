@@ -77,3 +77,9 @@ body {
 .navLinks a.active {
   font-weight: bold;
 }
+
+
+.pageContent {
+  padding-top: 60px
+}
+

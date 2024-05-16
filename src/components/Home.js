@@ -1,10 +1,9 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import MyLinkedin from './li_button';
 
-function Home() {
+const Home = () => {
   return (
-    <>
+    <div className="pageContent"> 
       <div style={{ color: 'white', textAlign: 'right', fontSize: '22px'}}>
         Walter Miller Van Hanken
         <br />
@@ -38,12 +37,8 @@ function Home() {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
-}
+};
 
 export default Home;
-
-{/* <Link to="../App">
-      <button>Home</button>
-    </Link> */}
