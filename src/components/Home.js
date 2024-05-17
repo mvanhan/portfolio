@@ -4,17 +4,6 @@ import MyLinkedin from './li_button';
 const Home = () => {
   return (
     <div className="pageContent"> 
-      <div style={{ color: 'white', textAlign: 'right', fontSize: '22px'}}>
-        Walter Miller Van Hanken
-        <br />
-        Tulsa, Oklahoma
-        <br />
-        UNC Chapel Hill, 3rd-Year
-        <br />
-        email: mvanhanken@gmail.com
-        <br />
-        mobile: (918) 703-3547
-      </div>
       <div className='flex' style={{ color: 'white', textAlign: 'right', fontSize: '22px', justifyContent: 'right' }}>
         Linkedin: <MyLinkedin />
       </div>

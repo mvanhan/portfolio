@@ -1,13 +1,14 @@
 import React from 'react';
 import './About.css';
+import MyLinkedin from '../components/li_button';
+
 
 const About = () => {
   return (
     <div className="pdf-container">
       <div className="pdf-text-box">
-        <h1>About Me</h1>
-        <p>Hi, I'm Walter Miller Van Hanken. I'm a 3rd-year student at UNC Chapel Hill, currently residing in Tulsa, Oklahoma. Feel free to reach out to me at mvanhanken@gmail.com or call me at (918) 703-3547.</p>
-        <p>Here you can add more details about your background, interests, and other relevant information.</p>
+        <p style={{fontSize: 25}}>Hi, I'm Miller. I'm a 3rd-year student at UNC Chapel Hill, studying computer science and philosophy. I'm passionate about technology, but I am particularly interested in the intersection of technology and ethics.</p>
+        <p style={{fontSize: 25}}>Feel free to send me an email at mvanhanken@gmail.com, call me at (918) 703-3547, or check out my<MyLinkedin inline/>.</p>
       </div>
       <div className="pdf-viewer">
         <h2 style={{textAlign: 'center'}}>My Resume</h2>
