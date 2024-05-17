@@ -1,31 +1,22 @@
+import '../App.css';
 import React from 'react';
-import MyLinkedin from './li_button';
+import { ReactTyped as Typed } from 'react-typed';
 
 const Home = () => {
   return (
-    <div className="pageContent"> 
-      <div className='flex' style={{ color: 'white', textAlign: 'right', fontSize: '22px', justifyContent: 'right' }}>
-        Linkedin: <MyLinkedin />
-      </div>
-      <div className="box">
-        <div className="pad">
-          <div className="center">
-            <div className="text-box">
-              <h1>PROJECTS</h1>
-            </div>
-          </div>
-          <br />
-          <div className="center">
-            <a href="https://directory-social-git-main-mvanhans-projects.vercel.app/" style={{ fontSize: '25px' }}>Directory-Social</a>
-          </div>
-          <br />
-          <div className="center">
-            <div className="text-box">
-              <h1>ABOUT ME</h1>
-            </div>
-          </div>
-        </div>
-      </div>
+    <div className="home-container">
+      <Typed
+        strings={[
+          "Hi, I'm Miller. Welcome to my portfolio!",
+          " ",
+          "I am 3rd-year student at UNC Chapel Hill, studying computer science and philosophy. I am passionate about new technologies, but I am particularly interested in the intersection of technology and ethics.",
+          "Please check out my projects and more about me!",
+        ]}
+        typeSpeed={20}
+        // backSpeed={50}
+        // backDelay={2000}
+        // loop
+      />
     </div>
   );
 };
