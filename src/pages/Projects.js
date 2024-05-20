@@ -19,14 +19,14 @@ const Projects = () => {
       media: '/AkariVid.mov'
     },
     {
+      title: 'First Website/Project | React.js',
+      description: 'This site was my first attempt at a personal coding project. The content was inspired by pop culture via my friends.',
+      media: 'https://directory-social-git-main-mvanhans-projects.vercel.app/' 
+    },
+    {
       title: 'Discussion of Ethical Implications of AI',
       description: 'This is an original research paper defending the following original thesis: "If artificial intelligence gains access to a fully immersive virtual reality, it will be capable of having subjective experiences."',
       media: '/AI and Subjective Experiences.pdf'
-    },
-    {
-      title: 'Project 3',
-      description: 'Description of project 3. This project is about...',
-      media: '/path/to/project3-image.jpg'
     }
   ];
 
@@ -46,7 +46,7 @@ const Projects = () => {
             <div className="project-details" onClick={stopPropagation}>
               {project.media && (
                 project.media.endsWith('.mp4') || project.media.endsWith('.mov') ? (
-                  <video controls className="project-video">
+                  <video controls className="project-video" onClick={stopPropagation}>
                     <source src={project.media} type="video/mp4" />
                     <source src={project.media} type="video/quicktime" />
                     Your browser does not support the video tag.
@@ -56,9 +56,15 @@ const Projects = () => {
                     src={project.media} 
                     title={`${project.title} PDF`} 
                     className="project-pdf"
+                    frameBorder="0"
                   ></iframe>
                 ) : (
-                  <img src={project.media} alt={`${project.title} media`} style={{width: '100%'}} />
+                  <iframe 
+                    src={project.media} 
+                    title={`${project.title} Website`} 
+                    className="project-website"
+                    frameBorder="0"
+                  ></iframe>
                 )
               )}
             </div>
