@@ -1,0 +1,54 @@
+.projects-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 60px;
+  }
+  
+  .project-box {
+    background: white;
+    padding: 20px;
+    margin: 20px;
+    width: 80%;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    position: relative;
+  }
+  
+  .project-box.expanded {
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .project-title {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .project-description {
+    margin-top: 10px;
+  }
+  
+  .expand-arrow {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+    font-size: 24px;
+  }
+  
+  .project-details {
+    display: none;
+    margin-top: 20px;
+  }
+  
+  .project-box.expanded .project-details {
+    display: block;
+  }
+  
+  .project-video {
+    display: block;
+    margin: 0 auto;
+    width: 25%;
+  }
+  
