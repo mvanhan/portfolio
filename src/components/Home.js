@@ -7,10 +7,10 @@ const Home = () => {
     <div className="home-container">
       <Typed
         strings={[
-          "Hi, I'm Miller. Welcome to my portfolio!",
+          "Hi, I'm Miller. Welcome!",
           "Please check out my projects and more about me!",
         ]}
-        typeSpeed={50}
+        typeSpeed={40}
         backSpeed={20}
         backDelay={2000}
         // loop

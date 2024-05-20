@@ -35,18 +35,24 @@
     margin-top: 10px;
   }
   
-  .project-details {
-    display: none;
-    margin-top: 20px;
+  .project-content {
+    cursor: pointer;
   }
   
-  .project-box.expanded .project-details {
-    display: block;
+  .project-details {
+    margin-top: 20px;
   }
   
   .project-video {
     display: block;
-    margin: 0 auto;
+    margin: 20px auto;
     width: 25%;
+  }
+
+  .project-pdf {
+    display: block;
+    margin: 20px auto;
+    width: 35%;
+    height: 600px;
   }
   
