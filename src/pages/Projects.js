@@ -14,7 +14,7 @@ const Projects = () => {
 
   const projects = [
     {
-      title: 'Akari Game Recreation',
+      title: 'Akari Game Recreation | Java',
       description: 'I developed a digital version of the puzzle game Akari as part of a class project. Starting with provided base code and general instructions, I implemented the majority of the functionality myself, adhering to the Model-View-Controller (MVC) design pattern.',
       media: '/AkariVid.mov'
     },

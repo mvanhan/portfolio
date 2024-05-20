@@ -1,6 +1,7 @@
 import React from 'react';
 import './About.css';
 import MyLinkedin from '../components/li_button';
+import MyGithub from '../components/gh_button';
 
 
 const About = () => {
@@ -8,7 +9,7 @@ const About = () => {
     <div className="pdf-container">
       <div className="pdf-text-box">
         <p style={{fontSize: 25}}>Hi, I'm Miller. I'm a 3rd-year student at UNC Chapel Hill, studying computer science and philosophy. I'm passionate about technology, but I am particularly interested in the intersection of technology and ethics.</p>
-        <p style={{fontSize: 25}}>Feel free to send me an email at mvanhanken@gmail.com, call me at (918) 703-3547, or check out my<MyLinkedin inline/>.</p>
+        <p style={{fontSize: 25}}>Feel free to send me an email at mvanhanken@gmail.com, call me at (918) 703-3547, or check out my<MyLinkedin inline/> or<MyGithub inline/>.</p>
       </div>
       <div className="pdf-viewer">
         <h2 style={{textAlign: 'center'}}>My Resume</h2>
