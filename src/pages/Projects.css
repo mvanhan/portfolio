@@ -11,12 +11,19 @@
     margin: 20px;
     width: 80%;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s, box-shadow 0.3s;
+    transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s;
     position: relative;
+    cursor: pointer;
+  }
+  
+  .project-box:hover {
+    background-color: #f0f0f0;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
   }
   
   .project-box.expanded {
     box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    background-color: #e0e0e0;
   }
   
   .project-title {
@@ -26,15 +33,6 @@
   
   .project-description {
     margin-top: 10px;
-  }
-  
-  .expand-arrow {
-    position: absolute;
-    bottom: 10px;
-    left: 50%;
-    transform: translateX(-50%);
-    cursor: pointer;
-    font-size: 24px;
   }
   
   .project-details {
