@@ -19,15 +19,20 @@ const Projects = () => {
       media: '/AkariVid.mov'
     },
     {
-      title: 'First Website/Project | React.js',
-      description: 'This site was my first attempt at a personal coding project. The content was inspired by pop culture via my friends.',
-      media: 'https://directory-social-git-main-mvanhans-projects.vercel.app/' 
+      title: 'Live Polling Site | React.js, CSS, Firebase | bidenortrump.org',
+      description: 'I developed a responsive web application which allows users to vote for their preferred candidate and see real-time updates of the vote counts. The app is built using React for the front end and Firebase for real-time data synchronization. The purpose of the app was to gain experience with data handling and synchronization. Additionally, I leased the domain name for 1 year because I anticiapte significant accidental traffic during the upcoming election season.',
+      media: 'https://www.bidenortrump.org/' 
     },
     {
       title: 'Discussion of Ethical Implications of AI',
       description: 'This is an original research paper defending the following original thesis: "If artificial intelligence gains access to a fully immersive virtual reality, it will be capable of having subjective experiences."',
       media: '/AI and Subjective Experiences.pdf'
-    }
+    },
+    {
+      title: 'First Website/Project | React.js, CSS',
+      description: 'This site was my first attempt at a personal coding project. The content was inspired by pop culture via my friends.',
+      media: 'https://directory-social-git-main-mvanhans-projects.vercel.app/' 
+    },
   ];
 
   return (
